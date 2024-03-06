@@ -42,5 +42,5 @@
   1. 해당 파일은 PyMySQL을 활용하여 데이터베이스에 크롤링 데이터를 저장하므로 사전에 MySQL 및 MariaDB의 설치가 필요하다.
   2. 파일을 모두 다운로드 한다. (하나의 폴더에 저장)
   3. 동일한 폴더에 추가로 필요한 정보를 담은 파일을 생성한다.
-  4. requirements.txt의 라이브러리를 설치한다.
-  5. main.py 파일을 실행한다.
+  4. requirements.txt의 라이브러리를 설치한다. (명령프롬프트에서 `pip install -r requirements.txt` 입력)
+  5. main.py 파일을 실행한다. (명령프롬프트에서 다운로드받은 파일이 담긴 폴더까지 접근한 후, `python main.py` 입력)
