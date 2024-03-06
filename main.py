@@ -72,7 +72,6 @@ with open(file_name, 'w') as f:
 webbrowser.open_new_tab(file_name) # html 파일 열기
 
 # 거리 계산
-print(os.listdir(file_path))
 if 'home_address.txt' in os.listdir(file_path):
     print('집과의 거리를 계산중입니다.')
     h = distance(info)
